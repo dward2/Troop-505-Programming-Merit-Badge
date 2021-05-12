@@ -39,14 +39,14 @@ The variable `t` is now used to control the turtle.  This variable name can be a
 
 A full list of turtle commands can be found at <https://docs.python.org/3/library/turtle.html#turtle-methods>.  The most important are:
 
-* t.forward(#) or t.fd(#)
-* t.backward(#) or t.bk(#)
-* t.right(#) or t.rt(#)
-* t.left(#) or t.lt(#)
-* t.setheading(#)
-* t.penup()
-* t.pendown()
-* t.pensize(#)
+* `t.forward(#)` or `t.fd(#)` where `#` is the distance to move
+* `t.backward(#)` or `t.bk(#)` where `#` is the distance to move
+* `t.right(#)` or `t.rt(#)` where `#` is the degrees to turn
+* `t.left(#)` or `t.lt(#)` where `#` is the degrees to turn
+* `t.setheading(#)` where `#` is the heading, in degrees, in which to point the turtle
+* `t.penup()`
+* `t.pendown()`
+* `t.pensize(#)` where `#` is the size of the pen
 
 ## Requirement 5c
 With your counselor's approval, choose a third programming languate and development environment, different from those used for requirements 5a and 5b and in a different industry from 5a and 5b.  Then write, debug, and demonstrate a functioning program to your counselor, using that language and environment.
